@@ -4,6 +4,10 @@ class DockingStation
 
   attr_reader :bike , :total
 
+  # def total
+  #   @total
+  # end
+
   def initialize
     @total = 0
   end
@@ -14,7 +18,7 @@ class DockingStation
   end
 
   def dock(bike)
-    @bike = bike
+    # @bike = bike
     @total += 1
   end
 
